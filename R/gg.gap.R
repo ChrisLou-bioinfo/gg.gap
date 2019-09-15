@@ -167,9 +167,13 @@ gg.gap <- function(plot,ylim,segments,tick_width,rel_heights,vjust=0,margin=c(to
     }else{
         rel_heights=rev(rel_heights)
     }
-    if (is.null(plot$theme$axis.title.y$angle)) angle=90
+    if (is.null(plot$theme$axis.title.y$angle)) {
+        angle=90
+    }else{
+        angle=plot$theme$axis.title.y$angle
+    }
     plot_grid(plotlist = p_segment,ncol = 1,align = "v",
-              rel_heights=rel_heights,...)+
+              rel_heights=rel_heights)+
         theme(plot.margin = unit(margin, "cm"))+
         draw_label(label = plot$labels$y,
                    x = 0,

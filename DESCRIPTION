@@ -1,7 +1,7 @@
 Package: gg.gap
 Type: Package
 Title: Define Segments in y-axis for 'ggplot2'
-Version: 1.0
+Version: 1.1
 Author: Jiacheng Lou, Jing Zhang, Yizhu Lvy, Zhi Jin
 Maintainer: Jiacheng Lou<loujiacheng1986@foxmail.com>
 Description: Easy to define segments in y-axis for 'ggplot2'.
@@ -13,4 +13,4 @@ RoxygenNote: 6.1.1
 URL: https://github.com/ChrisLou-bioinfo/gg.gap
 BugReports: https://github.com/ChrisLou-bioinfo/gg.gap/issues
 NeedsCompilation: no
-Packaged: 2019-09-15 13:31:35 UTC; asus
+Packaged: 2019-09-15 15:47:55 UTC; asus
