@@ -1,10 +1,14 @@
 Package: gg.gap
 Type: Package
-Title: Define Segments in y-axis for 'ggplot2'
-Version: 1.1
-Author: Jiacheng Lou, Jing Zhang, Yizhu Lvy, Zhi Jin
-Maintainer: Jiacheng Lou<loujiacheng1986@foxmail.com>
-Description: Easy to define segments in y-axis for 'ggplot2'.
+Title: Define Segments in y-Axis for 'ggplot2'
+Version: 1.4
+Authors@R: c(
+    person("Jiacheng", "Lou", email = "loujiacheng1986@foxmail.com", role = c("aut", "cre")),
+    person("Jing", "Zhang", role = "aut"),
+    person("Yizhu", "Lvy", role = "aut"),
+    person("Zhi", "Jin", role = "aut")
+    )
+Description: It is not very easy to define segments for y-axis in a 'ggplot2' plot. gg.gap() function in this package can carry it out.
 Imports: ggplot2, cowplot, grid
 License: GPL-3
 Encoding: UTF-8
@@ -13,4 +17,9 @@ RoxygenNote: 6.1.1
 URL: https://github.com/ChrisLou-bioinfo/gg.gap
 BugReports: https://github.com/ChrisLou-bioinfo/gg.gap/issues
 NeedsCompilation: no
-Packaged: 2019-09-15 15:47:55 UTC; asus
+Packaged: 2019-10-06 05:23:45 UTC; asus
+Author: Jiacheng Lou [aut, cre],
+  Jing Zhang [aut],
+  Yizhu Lvy [aut],
+  Zhi Jin [aut]
+Maintainer: Jiacheng Lou <loujiacheng1986@foxmail.com>

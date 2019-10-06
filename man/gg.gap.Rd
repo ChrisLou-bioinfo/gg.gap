@@ -2,13 +2,13 @@
 % Please edit documentation in R/gg.gap.R
 \name{gg.gap}
 \alias{gg.gap}
-\title{Define Segments in y-axis for 'ggplot2'}
+\title{Define Segments in y-Axis for 'ggplot2'}
 \usage{
 gg.gap(plot, ylim, segments, tick_width, rel_heights, vjust = 0,
   margin = c(top = 1, right = 2, bottom = 1, left = 1), ...)
 }
 \arguments{
-\item{plot}{A ggplot2() plot.}
+\item{plot}{A 'ggplot2' plot.}
 
 \item{ylim}{The y-axis limits.}
 
@@ -58,4 +58,14 @@ gg.gap(plot=p,
        tick_width = c(1,0.5,10),
        rel_heights=c(0.2,0,0.2,0,1),
        ylim=c(0,50))
+#reversed y-axis
+p<-ggplot(data = mtcars, aes(x = gear, fill = gear)) +
+    geom_bar() +
+    ggtitle("Number of Cars by Gear") +
+    xlab("Gears")+
+    scale_y_continuous(trans = 'reverse')
+#single segments and missing tick_width
+gg.gap(plot=p,
+       segments=c(10,5),
+       ylim=c(15,0))
 }

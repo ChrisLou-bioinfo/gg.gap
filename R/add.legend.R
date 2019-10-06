@@ -1,6 +1,6 @@
 #' @title Add Legend to gg.gap()
 #' @description Add legend to gg.gap().
-#' @param plot A ggplot2 plot.
+#' @param plot A 'ggplot2' plot.
 #' @param margin Margins around the text.
 #'
 #' @return A legend-added picture

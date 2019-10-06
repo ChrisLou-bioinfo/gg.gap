@@ -8,7 +8,7 @@ add.legend(plot, margin = c(top = 200, right = 200, bottom = 200, left =
   200))
 }
 \arguments{
-\item{plot}{A ggplot2 plot.}
+\item{plot}{A 'ggplot2' plot.}
 
 \item{margin}{Margins around the text.}
 }
